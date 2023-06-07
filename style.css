@@ -1,0 +1,101 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: "Poppins", sans-serif;
+  overflow-x: hidden;
+  background-color: #fff;
+  min-height: 100vh;
+}
+/* Start Scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background-color: #112436;
+}
+/* End Scrollbar */
+a {
+  text-decoration: none;
+}
+ul {
+  list-style: none;
+}
+header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 30px 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 10;
+}
+header .logo {
+  color: #112436;
+  font-weight: 900;
+  font-size: 32px;
+}
+header .nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+header .nav li a {
+  padding: 6px 15px;
+  color: #112436;
+  border-radius: 20px;
+  transition: 500ms;
+}
+header .nav li a:hover,
+header .nav li a.active {
+  background-color: #112436;
+  color: #fff;
+}
+.parallax {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.parallax img {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  pointer-events: none;
+}
+.parallax #text {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 64px;
+  font-weight: 900;
+  color: #112436;
+}
+.second-section {
+  position: relative;
+  padding: 100px;
+  background-color: #112436;
+  color: #fff;
+}
+.second-section h2 {
+  font-size: 48px;
+  margin-bottom: 10px;
+}
+.second-section p {
+  font-size: 16px;
+}
