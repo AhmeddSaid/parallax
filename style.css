@@ -99,3 +99,15 @@ header .nav li a.active {
 .second-section p {
   font-size: 16px;
 }
+footer {
+  background-color: #112436;
+  padding-bottom: 20px;
+  bottom: 20px;
+  text-align: center;
+  font-size: 18px;
+  color: #fff;
+  user-select: none;
+}
+footer a {
+  color: #ff0052;
+}
